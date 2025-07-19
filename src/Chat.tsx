@@ -67,6 +67,7 @@ const Chat = () => {
         },
         payload => {
           console.log('Changes recieved ', payload);
+          // setMsg(prev=>[...prev,payload])
           fetchMsg();
         },
       )
